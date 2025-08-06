@@ -2,7 +2,6 @@ from flask import request,jsonify
 import os
 import requests
 import random
-import base64
 from google import genai
 
 class ObtenerStatus():
