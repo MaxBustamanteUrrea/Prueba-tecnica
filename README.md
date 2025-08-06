@@ -49,11 +49,14 @@ El proyecto utiliza las siguientes dependencias (listadas en `requirements.txt`)
    ```bash
    pip install -r requirements.txt
    ```
-3. Crea un archivo .env con tus variables de entorno:
-   FLASK_APP=app.py
+3. Crea un archivo .env con tus variables de entorno (AUTH_USER y AUTH_PASSWORD es donde deben ir las credenciales):
+   FLASK_DEBUG=1
    FLASK_ENV=development
-   SECRET_KEY=tu_clave_secreta
-   API_KEY=tu_api_key
+
+   GEMINI_API_KEY= KEY
+
+   AUTH_USER="123"
+   AUTH_PASSWORD="abc"
 
 ## ▶️ Uso
 
